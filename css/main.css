@@ -98,27 +98,48 @@ textarea {
    ========================================================================== */
 p{
 	color:black;
-	font-size:150%}
+	font-size:120%}
 
 h1{
 	font-family: 'Arvo', serif;
     font-size: 300%;
+	
 }
 
-img {
-	text-align:center}
-a {
-    font-family: 'Arvo', serif;
-	text-decoration:none}
-ul {
+header {
+
+	text-align:center;
+	
+	}
+	
+table {
+	border:1px solid black;
+	
+	}
+
+
+.list-group-item {
+    font-family:'Arvo', serif;
+	text-decoration:none;
 	text-align:left;
-	font-family:Garamond;
+	cursor:auto;
+	
+
 }
 
-body {
+a:hover {
+	background-color:yellow;
+	text-decoration:underline;
 
-    margin:0% auto;
 }
+	
+
+.col-sm-4 {
+	border-radius:0%;
+	padding-left:0%;
+	padding-right:0%;
+}
+
 
 .grey {
 
@@ -129,16 +150,27 @@ footer {
 
     margin-top: 5%;
     padding: 2.5%, 0%, 2.5%, 0%;
-    min-height: 200px;
+    min-height: 100px;
     color:white;
 }
 
 
 .page-width {
-    width: 80%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
 }
+
+.col-sm-8 {
+	background-color: White;
+	border-radius:none;
+	
+	}
+	
+.col-sm-12 {
+	background-color:white;
+	
+	}
 
 
 
