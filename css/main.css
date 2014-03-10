@@ -100,9 +100,8 @@ p{
 	color:black;
 	font-size:120%}
 
-h1{
-	font-family: 'Arvo', serif;
-    font-size: 300%;
+h1 img{
+	min-width:100%;
 	
 }
 
@@ -118,11 +117,14 @@ table {
 	}
 
 
+
 .list-group-item {
     font-family:'Arvo', serif;
 	text-decoration:none;
-	text-align:left;
-	cursor:auto;
+	float:left;
+
+	
+	
 	
 
 }
@@ -133,12 +135,6 @@ a:hover {
 
 }
 	
-
-.col-sm-4 {
-	border-radius:0%;
-	padding-left:0%;
-	padding-right:0%;
-}
 
 
 .grey {
