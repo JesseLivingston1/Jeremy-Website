@@ -96,46 +96,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   
+ body{
+	background-image:url("JWBackground.jpg");
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-attachment:fixed;
+}	
+
 p{
 	color:black;
-	font-size:120%}
+	font-size:120%
+	}
 
 h1 img{
 	min-width:100%;
 	
 }
 
-header {
+h1 {
 
 	text-align:center;
 	
 	}
+
+
 	
 table {
 	border:1px solid black;
 	
 	}
 
-
-
 .list-group-item {
-    font-family:'Arvo', serif;
+    font-family:Museo-500, serif;
+	font-size:17px;
 	text-decoration:none;
+	min-width:16.65%;
 	float:left;
-
-	
-	
-	
-
-}
-
-a:hover {
-	background-color:yellow;
-	text-decoration:underline;
-
+	text-align:center;
 }
 	
-
 
 .grey {
 
