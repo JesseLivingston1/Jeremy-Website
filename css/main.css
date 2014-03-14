@@ -98,16 +98,26 @@ textarea {
    ========================================================================== */
    
    
+
+.container {
+    font-family:Museo-500, serif;
+
+}
+	
+   
  body{
 	background-image:url("JWBackground.jpg");
 	background-repeat:no-repeat;
 	background-position:right top;
 	background-attachment:fixed;
+	background-size: cover;
+	padding-top: 70px;
 }	
 
 p{
 	color:black;
-	font-size:120%
+	font-size:120%;
+	font-family:Garamond;
 	}
 
 h1 img{
@@ -128,19 +138,10 @@ table {
 	
 	}
 
-.list-group-item {
-    font-family:Museo-500, serif;
-	font-size:17px;
-	text-decoration:none;
-	min-width:16.65%;
-	float:left;
-	text-align:center;
-}
-	
 
 .grey {
 
-    background-color: #34495E;
+    background-color: transparent;
 }
 
 #photos {
@@ -164,9 +165,16 @@ table {
 footer {
 
     margin-top: 5%;
-    padding: 2.5%, 0%, 2.5%, 0%;
+	padding-top:2.5%;
     min-height: 100px;
     color:white;
+	font-family: Garamond, serif;
+	Font-size:18px;
+	text-align:center;
+	background-image:url("footer_wood_2.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	
 }
 
 
@@ -177,14 +185,18 @@ footer {
 }
 
 .col-sm-8 {
-	background-color: White;
-	border-radius:none;
+	background:rgba(255,255,255,0.8);
+	padding-top:20px;
+	margin-left:175px;
 	
 	}
 	
 .col-sm-12 {
-	background-color:white;
-	
+	background:transparent;
+	padding-top: 0px;
+	margin-left: 0px;
+	margin-top: 14px;
+	margin-bottom: 16px;
 	}
 
 
