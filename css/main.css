@@ -96,28 +96,31 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
-   
 
-.container {
+
+.nav  {
     font-family:Museo-500, serif;
-
+	Font-size:20px;
+	padding-left:30%;
+	
 }
+
 	
    
  body{
 	background-image:url("JWBackground.jpg");
-	background-repeat:no-repeat;
-	background-position:right top;
 	background-attachment:fixed;
-	background-size: cover;
-	padding-top: 70px;
+	Background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top-left;
+	padding-top:70px;
 }	
 
 p{
 	color:black;
 	font-size:120%;
 	font-family:Garamond;
+	
 	}
 
 h1 img{
@@ -187,16 +190,18 @@ footer {
 .col-sm-8 {
 	background:rgba(255,255,255,0.8);
 	padding-top:20px;
-	margin-left:175px;
+	float:left;
+	
 	
 	}
 	
-.col-sm-12 {
-	background:transparent;
+.col-sm-11{
+	background:rgba(255,255,255,0.8);
 	padding-top: 0px;
 	margin-left: 0px;
 	margin-top: 14px;
 	margin-bottom: 16px;
+	width:100%;
 	}
 
 
