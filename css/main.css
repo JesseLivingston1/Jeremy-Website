@@ -99,21 +99,23 @@ textarea {
 
 
 .nav  {
-    font-family:Museo-500, serif;
-	Font-size:20px;
-	padding-left:30%;
+    font-family: 'Josefin Slab', serif;
+	font-weight:400;
+	Font-size:18px;
+	padding-left:35%;
 	
 }
 
-	
+
    
  body{
-	background-image: url("JWBackground3.jpg");
+	background-image: url("img/JWBackground.png");
 	background-attachment:fixed;
 	Background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top-left;
 	padding-top:70px;
+	height:800px;
 }	
 
 p{
@@ -122,6 +124,13 @@ p{
 	font-family:Garamond;
 	
 	}
+	
+.row {
+	padding-bottom:15px;
+	
+	}
+
+
 
 h1 img{
 	min-width:100%;
@@ -130,11 +139,17 @@ h1 img{
 }
 
 h1 {
-	font-family:Museo-500;
+	font-family: 'Josefin Slab', serif;
+	font-weight:700;
 	text-align:center;
 	
 	}
 
+.content {
+
+height:550px;
+
+}
 
 	
 table {
@@ -148,36 +163,23 @@ table {
     background-color: transparent;
 }
 
-#photos {
-   /* Prevent vertical gaps */
-   line-height: 0;
-   
-   -webkit-column-count: 5;
-   -webkit-column-gap:   0px;
-   -moz-column-count:    5;
-   -moz-column-gap:      0px;
-   column-count:         5;
-   column-gap:           0px;
-   
-}
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-}
 
 footer {
 
-    margin-top: 5%;
+    margin-top: auto;
 	padding-top:2.5%;
-    min-height: 100px;
+    height: 100px;
     color:white;
-	font-family: Garamond, serif;
-	Font-size:18px;
+	font-family: 'Josefin Slab', sans-serif;
+	font-weight:700;
+	Font-size:12px;
 	text-align:center;
-	background-image:url("footer_wood_2.jpg");
+	text-transform: uppercase;
+	background-image:url("img/footer_wood_2.jpg");
 	background-repeat: no-repeat;
 	background-position:center;
+	
+	
 	
 }
 
@@ -186,25 +188,26 @@ footer {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
+	
 }
 
 .col-sm-10{
 	background:rgba(255,255,255,0.8);
 	padding-top:20px;
 	float:right;
-	
+	height:100%;
 	
 	}
 	
 .col-sm-12{
-	background:rgba(255,255,255,0.8);
+	background:transparent;
 	padding-top: 0px;
 	margin-left: 0px;
 	margin-top: 14px;
 	margin-bottom: 16px;
 	min-width:100%;
-	}
 
+	}
 
 
 
