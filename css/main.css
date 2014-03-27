@@ -162,7 +162,9 @@ padding-top:10px;
 }	
 	
 #bioimg {
-float:left;
+margin-left:auto;
+margin-right:auto;
+width:700px;
 
 }
 
