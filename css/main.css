@@ -114,10 +114,10 @@ textarea {
 .navbar-default {
 background-color: #f8f8f8;
 border-color: #e7e7e7;
-position: fixed;
+position: absolute;
 z-index: 100;
 width: 100%;
-opacity:.95;
+opacity:.75;
 
 }
 
@@ -159,7 +159,7 @@ opacity:.95;
 	float:left;
 	width:700px;
 	
-	}
+}
 	
 	
 #events {
@@ -168,6 +168,20 @@ float:left;
 padding-top:10px;
 
 }	
+
+#media {
+
+float:left;
+
+}
+
+#headshot {
+
+float:left;
+margin-top:10px;
+margin-bottom:40px;
+
+}
 	
 #bioimg {
 margin-left:auto;
@@ -187,11 +201,12 @@ margin:75px 0 75px 0;
 
 
 #footer {
-height: 100px;
-background-color: #33361B;
+height: 75px;
+background-color: #C78836;
 background-position: static;
 clear:both;
 background-repeat: repeat-y;
+opacity:.70;
 }
 
 .shell {
