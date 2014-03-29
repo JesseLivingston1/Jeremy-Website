@@ -155,6 +155,37 @@ opacity:.75;
 	
 	}
 	
+#welcome {
+width:1013px;
+margin-right:auto;
+margin-left:auto;
+
+	}
+	
+#media {
+
+margin-right:auto;
+margin-left:auto;
+height:550px;
+width:850px;
+clear:both;
+position:relative;
+background:url("img/media.png");
+}
+
+#box-link { 
+position: absolute;
+left: 370px;
+width: 130px;
+height: 30px;
+background-color: transparent;
+
+}
+
+#video {
+margin:82px auto auto 110px
+}
+	
 #album {
 
 	float:left;
@@ -162,11 +193,6 @@ opacity:.75;
 	margin-left:85px;
 }
 
-#welcome {
-width:1013px;
-margin-right:auto;
-margin-left:auto;
-}
 	
 	
 #events {
@@ -180,14 +206,6 @@ width:375px;
 
 
 
-#media {
-
-margin-right:auto;
-margin-left:auto;
-height:500px;
-width:500px;
-clear:both;
-}
 
 #headshot {
 
@@ -238,6 +256,7 @@ padding: 0px 0 0 0;
 font-family:'Marcellus SC',serif;
 font-size:13px;
 color:white;
+text-align:center;
 }
 
 
