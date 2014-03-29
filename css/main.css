@@ -106,7 +106,7 @@ textarea {
 	margin: auto;
 	padding: 0;
 	position: relative;
-	width: 519px;
+	width: 640px;
 	float: center;
 	
 }
@@ -158,8 +158,13 @@ opacity:.75;
 
 	float:left;
 	width:700px;
-	
 }
+
+#albumlink {
+
+
+	
+	}
 	
 	
 #events {
@@ -168,6 +173,9 @@ float:left;
 padding-top:10px;
 
 }	
+
+
+
 
 #media {
 
