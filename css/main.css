@@ -158,19 +158,22 @@ opacity:.75;
 #album {
 
 	float:left;
-	width:700px;
+	width:630px;
+	margin-left:85px;
 }
 
 #welcome {
-width:1200px;
-
+width:1013px;
+margin-right:auto;
+margin-left:auto;
 }
 	
 	
 #events {
 
 float:left;
-padding-top:10px;
+padding-top:2px;
+width:375px;
 
 }	
 
@@ -212,7 +215,7 @@ margin:75px 0 75px 0;
 
 
 #footer {
-height: 75px;
+height: 79px;
 background-color: #C78836;
 background-position: static;
 clear:both;
