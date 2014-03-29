@@ -151,7 +151,8 @@ opacity:.75;
 	margin: 60px auto;
 	padding: 0;
 	position: relative;
-	width: 1100px;
+	width: 1200px;
+	
 	}
 	
 #album {
@@ -160,11 +161,10 @@ opacity:.75;
 	width:700px;
 }
 
-#albumlink {
+#welcome {
+width:1200px;
 
-
-	
-	}
+}
 	
 	
 #events {
@@ -179,8 +179,11 @@ padding-top:10px;
 
 #media {
 
-float:left;
-
+margin-right:auto;
+margin-left:auto;
+height:500px;
+width:500px;
+clear:both;
 }
 
 #headshot {
