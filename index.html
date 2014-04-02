@@ -42,8 +42,8 @@
 			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2">
 					<img id="header" src="img/welcome.png"/>
-						<h1><span id="welcome">Welcome</span> to the Website of Jeremy Ward</h1>
-							<p id="description">Historical Performance Specialist, Performer, Clinician, and Teacher </p>
+						<h1 id="fittext1"><span id="welcome">Welcome</span> to the Website of Jeremy Ward</h1>
+							<h3 id="fittext2">Historical Performance Specialist, Performer, Clinician, and Teacher </h3>
 
 				</div>
 				
@@ -55,7 +55,7 @@
 				<div class="col-sm-5 col-sm-offset-2">
 					<h2 class="title">Media</h2>
 							<iframe height="400" src="http://www.youtube.com/embed/r3Vxw0yo3NQ" frameborder="0"></iframe>
-					<a class="links" href="media.html">More Media</a>
+					<div class="links"><a class="links" href="media.html">More Media</a></div>
 				</div>
 			</div>
 			
@@ -69,7 +69,7 @@
 							<li> 6/20 Fix US Economy </li>
 							<li> 7/1 Cure Cancer </li>
 						</ul>
-					<a class="links" href="calendar.html">Full Calendar</a>
+					<div  class="links"><a  class="links" href="calendar.html">Full Calendar</a></div>
 				</div>
 			</div>
 	   
@@ -78,7 +78,7 @@
 					<div id="album container">
 						<h2 class="title">Featured Album</h2>
 							<img src="img/rookeleven.png" style="min-width:100%;max-width:100%;"/>
-						<a class="links" href="http://www.rookearlymusic.com/eleven.html">More Information</a>
+						<div class="links"><a class="links" href="http://www.rookearlymusic.com/eleven.html">More Information</a></div>
 					</div>
 				</div>
 			</div>
@@ -107,12 +107,13 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="jquery.fittext.js"></script>
 	<script type="text/javascript">
-		$("#fittext1").fitText();
+		$("#fittext1").fitText(1.2);
 		$("#fittext2").fitText(1.2);
-		$("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+		$("#fittext3").fitText(1.1, { minFontSize: '20px', maxFontSize: '75px' });
 	</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
