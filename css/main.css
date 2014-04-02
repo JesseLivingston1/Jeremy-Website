@@ -98,27 +98,33 @@ textarea {
    ========================================================================== */
 
 
+
 .nav  {
     font-family: 'Josefin Slab', serif;
 	font-weight:400;
 	Font-size:18px;
-	background-color:transparent;
-	margin: auto;
-	padding: 0;
-	position: relative;
-	width: 640px;
-	float: center;
-	
+	z-index:100;
+	margin: 0 auto;
+    display: table;
+    float:none;
 }
 
-.navbar-default {
-background-color: #f8f8f8;
-border-color: #e7e7e7;
-position: absolute;
+
+.navbar-fixed-top {
+
+
+
 z-index: 100;
-width: 100%;
+
 opacity:.75;
 
+}
+
+#signature {
+
+font-family: 'Great Vibes', cursive;
+font-size:40px;
+margin-right:40px;
 }
 
    
@@ -128,123 +134,125 @@ opacity:.75;
 	Background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top-left;
-	height:800px;
+	padding-top:70px;
 }	
 
-	
-.col-sm-12{
-	
-	
-	}
-	
-	
-.row {
-	margin: 0 auto;
-	padding: 0;
-	position: relative;
-	width:604px;
-	
-	}
-	
-.main {
+#header {
 
-	margin: 60px auto;
-	padding: 0;
-	position: relative;
-	width: 1200px;
-	
-	}
-	
-#welcome {
-width:1013px;
-margin-right:auto;
-margin-left:auto;
+min-width:100%;
+max-width:100%;
 
-	}
-	
-#media {
 
-margin-right:auto;
-margin-left:auto;
-height:550px;
-width:850px;
-clear:both;
-position:relative;
-background:url("img/media.png");
 }
 
-#box-link { 
+
+.col-sm-8 {
+
+margin-bottom:80px;
+background:white;
+opacity:.75;
+box-shadow:3px 4px 4px 4px black;
+padding:0;
+}
+
+
+
+
+h1 {
+font-family:'Marcellus SC', serif;
+top: 0;
+left: 40px;
 position: absolute;
-left: 370px;
-width: 130px;
-height: 30px;
-background-color: transparent;
+font-size:2.5em;
+color:#954a13;
+}
+
+#welcome {
+
+font-size:2em;
 
 }
 
-#video {
-margin:82px auto auto 110px
+
+#description {
+
+font-family:'Marcellus SC', serif;
+top: 130px;
+left: 80px;
+position: absolute;
+font-size: 1.5em;
+color:#954a13;
 }
-	
-#album {
 
-	float:left;
-	width:630px;
-	margin-left:85px;
-}
-
-	
-	
-#events {
-
+.col-sm-5 {
 float:left;
-padding-top:2px;
-width:375px;
-
-}	
-
-
-
-
-
-#headshot {
-
-float:left;
-margin-top:10px;
+background-color:white;
+opacity:.75;
 margin-bottom:40px;
+box-shadow:3px 4px 4px 4px black;
 
 }
-	
-#bioimg {
-margin-left:auto;
-margin-right:auto;
-width:500px;
+
+.col-sm-2 {
 float:left;
-margin-top:50px;
+background-color:white;
+opacity:.75;
+box-shadow:3px 4px 4px 4px black;
+
 }
 
-#biotext {
-
-color:white;
-font-family:'Garamond',sans-serif;
-Font-size:20px;
-margin:75px 0 75px 0;
+iframe, object, embed {
+        max-width: 100%;
+		min-width: 100%;
+		z-index:1;
 }
+
+.title{
+
+font-family:'Marcellus SC', serif;
+font-size: 2em;
+color:#954a13;
+text-align:center;
+}
+
+.links {
+
+font-family:'Marcellus SC', serif;
+font-size: 22px;
+color:#954a13;
+text-align:center;
+}
+
+.events {
+font-family:'Josefin Slab', serif;
+font-size:20px;
+font-weight: 400;
+}
+
+#albumcontainer{
+float:left;
+background-color:white;
+opacity:.75;
+margin-bottom:20px; 
+box-shadow:3px 4px 4px 4px black;
+}
+
+
 
 
 #footer {
-height: 79px;
+padding-top:10px;
 background-color: #C78836;
 background-position: static;
 clear:both;
 background-repeat: repeat-y;
 opacity:.70;
+margin-top:20px;
 }
 
 .shell {
 position: relative;
 padding: 15px 20px 20px 25px;
-width: 1075px;
 margin: 0 auto;
 }
 
@@ -267,16 +275,6 @@ text-align:center;
 	
 }
 
-
-.col-sm-8{
-	background: transparent;
-	padding-top:20px;
-	float:right;
-	height:100%;
-	color:white;
-	margin-right:30%;
-	margin-left:30%;
-	}
 
 
 

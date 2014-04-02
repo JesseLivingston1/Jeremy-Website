@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -20,29 +21,12 @@
     <body>
 
         <div class ="contanier-fluid page-width">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-
-        <header class="row"> 
-            <section class="col-sm-12">
-                <h1> 
-				
-					<img src="img/Jeremy-Ward-Header-v4.png"/>
-				
-				</h1>
-
-            </section>
-        </header>
-		
 		
 				
-           <nav class="navbar navbar-default navbar-default" role="navigation">
+           <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-        				<li><a href="index.html">Home</a></li>
+        				<li><a id="signature" href="index.html">Jeremy Ward</a></li>
                         <li><a href="bio.html">Bio</a></li>
                         <li><a href="media.html">Media</a></li>
                         <li><a href="calendar.html">Calendar</a></li>
@@ -54,45 +38,51 @@
 					
         		</div>
             </nav>
-			   
-			   
-			
-		
-		
-       <section class="main">
 	   
-			<div id="welcome">
-				<img src="img/welcome.png"/>
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2">
+					<img id="header" src="img/welcome.png"/>
+						<h1><span id="welcome">Welcome</span> to the Website of Jeremy Ward</h1>
+							<p id="description">Historical Performance Specialist, Performer, Clinician, and Teacher </p>
+
+				</div>
+				
+						
+			</div>
+						
+						
+			<div class="row-fluid">
+				<div class="col-sm-5 col-sm-offset-2">
+					<h2 class="title">Media</h2>
+							<iframe height="400" src="http://www.youtube.com/embed/r3Vxw0yo3NQ" frameborder="0"></iframe>
+					<a class="links" href="media.html">More Media</a>
+				</div>
 			</div>
 			
-			<div id="media">
-				<iframe id="video" width="640" height="390" src="http://www.youtube.com/embed/r3Vxw0yo3NQ?autoplay=1" frameborder="0"></iframe>
-						<div>
-							<a id="box-link" href="media.html"></a>
-						</div>
+			<div class="row-fluid">
+				<div class="col-sm-2 col-sm-offset-1">
+					<h2 class="title">Events</h2>
+						<ul>
+							<li> 4/11 Concert in Carnegie Hall </li>
+							<li> 5/23 Workshop in Japan </li>
+							<li> 5/24 Solve world hunger </li>
+							<li> 6/20 Fix US Economy </li>
+							<li> 7/1 Cure Cancer </li>
+						</ul>
+					<a class="links" href="calendar.html">Full Calendar</a>
+				</div>
 			</div>
 	   
-			<div id="album">
-				<img src="img/rookeleven.png" width="700" height="701" alt="rookeleven" usemap="#albummap"/>
-				<map name="albummap">
-					<area shape="rect" coords="260,630,439,647" href="http://www.rookearlymusic.com/eleven.html" alt="rookeleven"/>
-				</map>
+			<div class="row-fluid">
+				<div class="col-sm-5 col-sm-offset-3">
+					<div id="album container">
+						<h2 class="title">Featured Album</h2>
+							<img src="img/rookeleven.png" style="min-width:100%;max-width:100%;"/>
+						<a class="links" href="http://www.rookearlymusic.com/eleven.html">More Information</a>
+					</div>
+				</div>
 			</div>
-	   
-	   
-			<div id="events">
-				<img src="img/Events.png" width="400" height="700" alt="calendar" usemap="#calendarlink"/>
-				<map name="calendarlink">
-					<area shape="rect" coords="87,623,324,640" href="calendar.html" alt="calendar"/>
-				</map>
-			</div>
-			
-			
-		
-	   
-	   
-	   
-	   </section>
+	   </div>
             
 
   
@@ -110,13 +100,20 @@
 		</div>
 
           
-
+</div>
      
        <script src="js/vendor/jquery-1.9.1.js"></script>
         <script src="js/vendor/jquery.tools.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 	<script src="jquery.fittext.js"></script>
+	<script type="text/javascript">
+		$("#fittext1").fitText();
+		$("#fittext2").fitText(1.2);
+		$("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+	</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
