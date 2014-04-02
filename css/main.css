@@ -153,38 +153,44 @@ background:white;
 opacity:.75;
 box-shadow:3px 4px 4px 4px black;
 padding:0;
+background-image:url('img/welcome.png');
+background-repeat:no-repeat;
+background-position:right;
+background-size:38%;
 }
-
-
 
 
 #fittext1{
 font-family:'Marcellus SC', sans-serif;
-top: 0;
-left: 40px;
-position: absolute;
+position: relative;
 font-size:40px;
 color:#954a13;
 display:block;
-}
-
-#fittext1 span{
-
-font-size:60px;
-
+padding-left:20px;
+margin:.45em 0;
 }
 
 
 #fittext2 {
 
-font-family:'Marcellus SC', serif;
-top: 130px;
-left: 80px;
-position: absolute;
+font-family:'Marcellus SC', sans-serif;
+position: realtive;
 font-size: 20px;
 color:#954a13;
 display:block;
+padding-left:20px;
 }
+
+#fittext3 {
+
+font-family:'Marcellus SC', sans-serif;
+position: relative;
+font-size: 20px;
+color:#954a13;
+display:block;
+padding-left:20px;
+}
+
 
 .col-sm-5 {
 float:left;
