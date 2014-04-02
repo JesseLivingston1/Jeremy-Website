@@ -156,7 +156,8 @@ padding:0;
 background-image:url('img/welcome.png');
 background-repeat:no-repeat;
 background-position:right;
-background-size:38%;
+background-size:contain;
+
 }
 
 
