@@ -292,7 +292,8 @@ text-align:left;
 #bioimg {
 
 padding-top:4em;
-
+min-width:90%;
+max-width:90%;
 }
 
 
