@@ -107,6 +107,7 @@ textarea {
 	margin: 0 auto;
     display: table;
     float:none;
+	margin-left:16.67%;
 }
 
 
@@ -201,11 +202,13 @@ box-shadow:1.5px 2px 2px 2px black;
 
 }
 
-.col-sm-2 {
+.col-sm-3 {
 float:left;
 background-color:white;
 opacity:.75;
 box-shadow:1.5px 2px 2px 2px black;
+margin-left:2%;
+width: 22.9%;
 
 }
 
@@ -218,7 +221,7 @@ iframe, object, embed {
 .title{
 
 font-family:'Marcellus SC', serif;
-font-size: 3em;
+font-size: 2em;
 color:#954a13;
 text-align:center;
 }
@@ -240,7 +243,7 @@ color:#954a13;
 
 #events {
 font-family:'Marcellus SC', sans-serif;
-font-size: 3em;
+font-size: 2em;
 color:#954a13;
 text-align:center;
 padding-bottom:.5em;
