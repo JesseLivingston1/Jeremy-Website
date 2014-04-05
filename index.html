@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		        <script src="js/vendor/handlebars-v1.3.0.js"></script>
     </head>
     <body>
 
@@ -25,9 +26,9 @@
 		
 				
            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+           	<a id="signature" href="index.html">Jeremy Ward</a>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-        				<li><a id="signature" href="index.html">Jeremy Ward</a></li>
                         <li><a href="bio.html">Bio</a></li>
                         <li><a href="media.html">Media</a></li>
                         <li><a href="calendar.html">Calendar</a></li>
@@ -62,13 +63,11 @@
 			<div class="row-fluid">
 				<div class="col-sm-3 col-sm-offset-1">
 					<h2 id="events">Events</h2>
-						<ul>
-							<li> 4/11 Concert in Carnegie Hall </li>
-							<li> 5/23 Workshop in Japan </li>
-							<li> 5/24 Solve world hunger </li>
-							<li> 6/20 Fix US Economy </li>
-							<li> 7/1 Cure Cancer </li>
-						</ul>
+
+						<div id="events-placeholder">
+								<div class="spinner"></div>
+						 </div>
+
 					<div  class="links"><a  class="links" href="calendar.html">Full Calendar</a></div>
 				</div>
 			</div>
@@ -107,7 +106,9 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-	
+        <script src="js/vendor/tabletop.js"></script>
+
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="js/jquery.fittext.js"></script>
 	<script type="text/javascript">

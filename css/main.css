@@ -78,9 +78,20 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
-    resize: vertical;
+
+/* ==========================================================================
+   Loader for Events
+   ========================================================================== */
+
+
+.spinner {
+background: url(../img/ajax-loader-large.gif) center center no-repeat;
+height: 150px;
+width: 150px;
+background-size: 150px 150px;
+margin: 0 auto;
 }
+
 
 /* ==========================================================================
    Browse Happy prompt
@@ -536,3 +547,6 @@ text-align:center;
         page-break-after: avoid;
     }
 }
+
+
+

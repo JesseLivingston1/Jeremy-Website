@@ -31,3 +31,33 @@
   };
 
 })( jQuery );
+
+
+  window.onload = function() { init() };
+
+  var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0ArOMqtZIcWLedHZscTJQejR0QjI5WktYbWhfemhyOVE&output=html';
+
+  function init() {
+    Tabletop.init( { key: public_spreadsheet_url,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  function showInfo(data, tabletop) {
+
+    var source = "<ul>{{#each this}} <li>{{event}}" + " - " + "{{date}}</li> {{/each}} </ul>";
+
+    var template = Handlebars.compile(source);
+    var result = template(data);
+
+    $("#events-placeholder").html(result);
+    $("#events-placeholder .spinner").remove();
+    
+  }
+
+
+
+
+
+
+
