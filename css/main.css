@@ -79,6 +79,10 @@ fieldset {
  */
 
 
+.container-fluid {
+    max-width: 1200px;
+}
+
 /* ==========================================================================
    Loader for Events
    ========================================================================== */
@@ -297,25 +301,20 @@ float:left;
 
 font-family:'Marcellus SC', sans-serif;
 color:white;
-position: relative;
-float:left;
-margin-left:12%;
-padding-top:40px;
-font-size:40px;
+text-align:center;
+
+
 
 }
 
-#bio {
-width:40%;
-float:left;
-padding-left:4%;
-font-family:'Josefin Slab', sans-serif;
-color:white;
-position: relative;
-text-align:justify;
-font-size:18px;
-min-height:400px;
+p {
+
+    font-family:'Josefin Slab';
+    font-size:15px;
+    color:white;
+    text-align:justify;
 }
+
 
 
 
