@@ -111,20 +111,21 @@ margin: 0 auto;
 
 
 .nav  {
-    font-family: 'Josefin Slab', serif;
+       font-family: 'Josefin Slab', serif;
 	font-weight:400;
 	Font-size:18px;
 	z-index:100;
 	margin: 0 auto;
     display: table;
     float:none;
-	margin-left:16.67%;
+
 }
 
 
-.navbar-fixed-top {
+.navbar-default {
 z-index: 100;
 opacity:.75;
+
 
 }
 
@@ -132,7 +133,8 @@ opacity:.75;
 
 font-family: 'Great Vibes', cursive;
 font-size:40px;
-margin-right:60px;
+color:#333;
+padding-right:50px;
 }
 
 
@@ -144,7 +146,7 @@ margin-right:60px;
 	Background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top-left;
-	padding-top:70px;
+	padding-top:40px;
 }	
 
 #header {
@@ -158,7 +160,7 @@ max-width:100%;
 
 .col-sm-8 {
 
-margin-top:40px;
+margin-top:80px;
 margin-bottom:80px;
 background:white;
 opacity:.75;
@@ -204,7 +206,7 @@ padding-bottom:.25em;
 }
 
 
-.col-sm-5 {
+.col-sm-4 {
 float:left;
 background-color:white;
 opacity:.75;
@@ -212,6 +214,18 @@ margin-bottom:40px;
 box-shadow:1.5px 2px 2px 2px black;
 
 }
+
+.col-sm-5 {
+
+float:left;
+background-color:white;
+opacity:.75;
+margin-bottom:40px;
+box-shadow:1.5px 2px 2px 2px black;
+
+}
+
+
 
 .col-sm-3 {
 float:left;
@@ -267,52 +281,40 @@ font-size:1.5em;
 
 }
 
-#albumcontainer{
-float:left;
-background-color:white;
-opacity:.75;
-margin-bottom:20px; 
-box-shadow:1.5px 2px 2px 2px black;
-min-width:100%;
-max-width:100%;
-}
-
-#biotext {
-
-color:white;
-font-size:1.4em;
-margin-left:2%;
-margin-top:1%;
-float:left;
-width:30%;
-}
 
 #bioimg {
 
-padding-top:4%;
-margin-left:16%;
+padding-top:40px;
+padding-left:10%;
+padding-bottom:30px;
 margin-right:auto;
 float:left;
 
 }
 
 
-#fittext4{
+#about{
 
 font-family:'Marcellus SC', sans-serif;
 color:white;
 position: relative;
-text-align:center;
+float:left;
+margin-left:12%;
+padding-top:40px;
+font-size:40px;
 
 }
 
-#fittext5 {
-
+#bio {
+width:40%;
+float:left;
+padding-left:4%;
 font-family:'Josefin Slab', sans-serif;
 color:white;
 position: relative;
-text-align:left;
-
+text-align:justify;
+font-size:18px;
+min-height:400px;
 }
 
 
