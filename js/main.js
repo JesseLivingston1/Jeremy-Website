@@ -32,6 +32,7 @@
 
 })( jQuery );
 
+//tabletop stuff//
 
   window.onload = function() { init() };
 
@@ -45,7 +46,7 @@
 
   function showInfo(data, tabletop) {
 
-    var source = "<ul>{{#each this}} <li>{{event}}" + " - " + "{{date}}</li> {{/each}} </ul>";
+    var source = "<ul>{{#each this}} <li><b>{{event}}</b>" + " - " + "{{date}}</li> {{/each}} </ul>";
 
     var template = Handlebars.compile(source);
     var result = template(data);
