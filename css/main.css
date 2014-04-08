@@ -81,6 +81,7 @@ fieldset {
 
 .container-fluid {
     max-width: 1200px;
+	height:830px;
 }
 
 /* ==========================================================================
@@ -122,6 +123,7 @@ margin: 0 auto;
 	margin: 0 auto;
     display: table;
     float:none;
+	
 
 }
 
@@ -129,7 +131,7 @@ margin: 0 auto;
 .navbar-default {
 z-index: 100;
 opacity:.75;
-
+position:absolute;
 
 }
 
@@ -162,7 +164,7 @@ max-width:100%;
 }
 
 
-.col-sm-8 {
+.col-md-10 {
 
 margin-top:80px;
 margin-bottom:80px;
@@ -184,7 +186,7 @@ text-align:center;
 color:#954a13;
 display:block;
 margin-right:150px;
-margin:.25em 2.5em 0 0;
+margin:.5em 2.5em 0 0;
 }
 
 
@@ -210,34 +212,28 @@ padding-bottom:.25em;
 }
 
 
-.col-sm-4 {
-float:left;
+.col-lg-7 {
 background-color:white;
 opacity:.75;
-margin-bottom:40px;
 box-shadow:1.5px 2px 2px 2px black;
+margin-left:10px;
+width:57.6%;
 
 }
 
-.col-sm-5 {
-
-float:left;
+.col-lg-3 {
 background-color:white;
 opacity:.75;
-margin-bottom:40px;
 box-shadow:1.5px 2px 2px 2px black;
 
 }
+.col-lg-10 {
 
-
-
-.col-sm-3 {
-float:left;
 background-color:white;
 opacity:.75;
 box-shadow:1.5px 2px 2px 2px black;
-margin-left:2%;
-width: 22.9%;
+margin-bottom:10px;
+
 
 }
 
@@ -301,24 +297,15 @@ float:left;
 
 font-family:'Marcellus SC', sans-serif;
 color:white;
-<<<<<<< HEAD
-position: relative;
-float:left;
-margin-left:10%;
-padding-top:40px;
 font-size:40px;
-=======
 text-align:center;
-
-
->>>>>>> 947cb4c1071ab97c3783da176fc2225403f84b9b
 
 }
 
 p {
 
     font-family:'Josefin Slab';
-    font-size:15px;
+    font-size:18px;
     color:white;
     text-align:justify;
 }
@@ -364,7 +351,7 @@ text-align:center;
 
 
 
-
+@media (min-width: @screen-md-min) { <1300px }
 
 
 
