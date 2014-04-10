@@ -33,7 +33,7 @@
                         <li><a href="bio.html">Bio</a></li>
                         <li><a href="media.html">Media</a></li>
                         <li><a href="calendar.html">Calendar</a></li>
-						<li><a href="teaching.html">Teaching</a></li>
+						<li><a href="studio.html">Studio</a></li>
 						<li><a href="my_instrument.html">My Instrument</a></li>
 						<li><a href="mailto:celloward@gmail.com">Contact</a></li>
 					</ul>	
@@ -43,14 +43,13 @@
 	   
 			<div class="container">
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<h1 id="fittext1">Jeremy David Ward</h1> 
-						<div id="fittext2"> Violone & Violoncello</div>
-						
+					<div class="col-lg-10 col-lg-offset-1">
+						<div class="welcome">
+							<h1 id="fittext1">Jeremy David Ward</h1> 
+							<div id="fittext2"> Violone & Violoncello</div>
+						</div>
 					</div>
 				</div>
-				
-						
 			</div>
 			
 			
@@ -63,26 +62,31 @@
 
 		<div class="container">	
 			<div class="row">
-			
 				<div class="col-lg-10 col-lg-offset-1">
+					<div class="watch">
 						<h2 class="title">Watch</h2>
 								<iframe height="400" src="http://www.youtube.com/embed/tgww65eAYo4" frameborder="0"></iframe>
 						<div class="links"><a class="links" href="media.html">More Media</a></div>
+					</div>
 				</div>
 
 			
 				<div class="col-lg-3 col-lg-offset-1">
-					<h2 id="events">Events</h2>
-						<div id="events-placeholder" style="max-height:765px">
-							<div class="spinner"></div>
-						 </div>
-					<div  class="links"><a  class="links" href="calendar.html">Full Calendar</a></div>
+					<div class="events">
+						<h2 id="events">Events</h2>
+							<div id="events-placeholder" style="max-height:765px">
+								<div class="spinner"></div>
+							 </div>
+						<div  class="links"><a  class="links" href="calendar.html">Full Calendar</a></div>
+					</div>
 				</div>
 				
-				<div class="col-lg-7">
+				<div class="col-lg-7" style="padding-left:0">
+					<div class="album">
 						<h2 class="title">Featured Album</h2>
 							<img src="img/rookeleven.png" style="min-width:100%;max-width:100%;"/>
 						<div class="links"><a class="links" href="http://www.rookearlymusic.com/eleven.html">More Information</a></div>
+					</div>
 				</div>
 
 
@@ -115,7 +119,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="js/jquery.fittext.js"></script>
 	<script type="text/javascript">
-		$("#fittext1").fitText(1, { minFontSize: '5px', maxFontSize: '70px' });
+		$("#fittext1").fitText(1, { minFontSize: '5px', maxFontSize: '60px' });
 		$("#fittext2").fitText(3.4, { minFontSize: '5px', maxFontSize: '30px' });
 		$("#fittext3").fitText(4.3, { minFontSize: '5px', maxFontSize: '20px' });
 		$("#fittext4").fitText(1, { minFontSize: '15px', maxFontSize: '35ßpx' });

@@ -152,7 +152,7 @@ padding-right:50px;
 	Background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top-left;
-	padding-top:40px;
+	padding-top:70px;
 }	
 
 #header {
@@ -164,10 +164,11 @@ max-width:100%;
 }
 
 
-.col-md-10 {
+.welcome {
 
-margin-top:80px;
+margin-top:40px;
 margin-bottom:80px;
+padding:15px;
 background:white;
 opacity:.75;
 box-shadow:1.5px 2px 2px 2px black;
@@ -211,31 +212,35 @@ margin:.25em 7.5em 0 0;
 padding-bottom:.25em;
 }
 
+.watch {
 
-.col-lg-7 {
-background-color:white;
-opacity:.75;
-box-shadow:1.5px 2px 2px 2px black;
-margin-left:10px;
-width:57.6%;
-
-}
-
-.col-lg-3 {
-background-color:white;
-opacity:.75;
-box-shadow:1.5px 2px 2px 2px black;
-
-}
-.col-lg-10 {
-
-background-color:white;
-opacity:.75;
-box-shadow:1.5px 2px 2px 2px black;
 margin-bottom:10px;
+padding:15px;
+background-color:white;
+opacity:.75;
+box-shadow:1.5px 2px 2px 2px black;
+
+}
+
+.album {
+margin-bottom:20px;
+padding: 15px;
+background-color:white;
+opacity:.75;
+box-shadow:1.5px 2px 2px 2px black;
 
 
 }
+
+.events {
+background-color:white;
+opacity:.75;
+box-shadow:1.5px 2px 2px 2px black;
+
+padding:15px;
+
+}
+
 
 iframe, object, embed {
         max-width: 100%;
@@ -264,7 +269,11 @@ a:hover {
 text-decoration:none;
 color:#954a13;
 }
+a {
 
+color:#954a13;
+
+}
 
 #events {
 font-family:'Marcellus SC', sans-serif;
@@ -310,8 +319,57 @@ p {
     text-align:justify;
 }
 
+.media {
 
+margin-bottom:20px;
+padding:15px;
+background-color:white;
+opacity:.75;
+box-shadow:1.5px 2px 2px 2px black;
+margin-bottom:40px;
+}
 
+.mediatitle {
+font-family:'Marcellus SC', sans-serif;
+font-size: 1.5em;
+color:#954a13;
+text-align:center;
+
+}
+
+#mediaheading {
+font-family:'Marcellus SC', sans-serif;
+font-size: 2.5em;
+color:white;
+text-align:center;
+
+}
+
+#studio {
+
+font-family:'Josefin Slab', sans-serif;
+font-size: 20px;
+color:#954a13;
+text-align:center;
+
+}
+
+#fittext5 {
+text-align:center;
+font-family:'Marcellus SC', sans-serif;
+color:#954a13;
+}
+
+#teaching {
+
+padding:15px;
+background-color:white;
+opacity:.75;
+box-shadow:1.5px 2px 2px 2px black;
+margin-bottom:60px;
+margin-top:40px;
+
+}
 
 #footer {
 padding-top:10px;
