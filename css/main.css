@@ -81,7 +81,7 @@ fieldset {
 
 .container-fluid {
     max-width: 1200px;
-	height:830px;
+	
 }
 
 /* ==========================================================================
@@ -223,7 +223,7 @@ box-shadow:1.5px 2px 2px 2px black;
 }
 
 .album {
-margin-bottom:20px;
+margin-top:0;
 padding: 15px;
 background-color:white;
 opacity:.75;
@@ -236,8 +236,40 @@ box-shadow:1.5px 2px 2px 2px black;
 background-color:white;
 opacity:.75;
 box-shadow:1.5px 2px 2px 2px black;
-
 padding:15px;
+
+}
+
+#albumpage {
+margin-top:60px;
+padding: 15px;
+background-color:white;
+opacity:.75;
+box-shadow:1.5px 2px 2px 2px black;
+
+
+}
+
+.albuminfo {
+
+font-size:20px;
+
+}
+
+#albumcontents {
+
+font-family:'Josefin Slab', sans-serif;
+color:white;
+font-size:20px;
+
+}
+
+#contents {
+
+font-family:'Marcellus SC', sans-serif;
+color:white;
+font-size:40px;
+text-align:center;
 
 }
 
@@ -337,6 +369,41 @@ text-align:center;
 
 }
 
+.linkimg {
+
+margin-bottom:20px;
+padding:15px;
+background-color:white;
+box-shadow:1.5px 2px 2px 2px black;
+margin-bottom:80px;
+max-width:100%;
+min-width:100%;
+
+}
+
+#linkimgrook {
+margin-bottom:20px;
+padding:15px;
+background-color:white;
+box-shadow:1.5px 2px 2px 2px black;
+margin-bottom:80px;
+max-width:100%;
+min-width:100%;
+opacity:.75;
+
+}
+
+
+#rook {
+
+font-family:'Marcellus SC', sans-serif;
+font-size: 3.5em;
+text-align:center;
+color:#954a13;
+margin:0;
+
+}
+
 #mediaheading {
 font-family:'Marcellus SC', sans-serif;
 font-size: 2.5em;
@@ -360,6 +427,21 @@ font-family:'Marcellus SC', sans-serif;
 color:#954a13;
 }
 
+#fittext6 {
+text-align:center;
+font-family:'Marcellus SC', sans-serif;
+color:white;
+margin-top:0;
+}
+
+#fittext7 {
+text-align:center;
+font-family:'Marcellus SC', sans-serif;
+color:white;
+margin-top:20px;
+}
+
+
 #teaching {
 
 padding:15px;
@@ -368,6 +450,19 @@ opacity:.75;
 box-shadow:1.5px 2px 2px 2px black;
 margin-bottom:60px;
 margin-top:40px;
+
+}
+
+.history {
+
+font-size:20px;
+
+}
+
+.history span {
+
+font-family: 'UnifrakturCook', cursive;
+font-size:40px;
 
 }
 
