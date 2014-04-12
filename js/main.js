@@ -46,7 +46,7 @@
 
   function showInfo(data, tabletop) {
 
-    var source = "<ul>{{#each this}} <li><b>{{event}}</b>" + " - " + "{{date}}</li> {{/each}} </ul>";
+    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b></li> {{/each}} </ul>";
 
     var template = Handlebars.compile(source);
     var result = template(data);
