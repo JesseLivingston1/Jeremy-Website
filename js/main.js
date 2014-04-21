@@ -1,4 +1,7 @@
 
+
+//fittext//
+
 (function( $ ){
 
   $.fn.fitText = function( kompressor, options ) {
@@ -32,7 +35,7 @@
 
 })( jQuery );
 
-//tabletop stuff//
+//tabletop//
 
   window.onload = function() { init() };
 
@@ -46,7 +49,7 @@
 
   function showInfo(data, tabletop) {
 
-    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b></li> {{/each}} </ul>";
+    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em></li> {{/each}} </ul>";
 
     var template = Handlebars.compile(source);
     var result = template(data);

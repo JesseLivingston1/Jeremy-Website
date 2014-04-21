@@ -113,6 +113,7 @@ margin: 0 auto;
    Author's custom styles
    ========================================================================== */
 
+/*all page styles*/
 
 
 .nav  {
@@ -154,13 +155,20 @@ padding-right:50px;
 	padding-top:70px;
 }	
 
-#header {
-
-min-width:100%;
-max-width:100%;
 
 
+.page-width {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
+
+
+
+@media (min-width: @screen-md-min) { <1300px }
+
+/*home page styles*/
 
 
 .welcome {
@@ -213,7 +221,7 @@ padding-bottom:.25em;
 
 .watch {
 
-margin-bottom:10px;
+margin-bottom:0;
 padding:15px;
 background-color:white;
 opacity:.85;
@@ -222,7 +230,7 @@ box-shadow:1.5px 2px 2px 2px black;
 }
 
 .album {
-margin-top:0;
+margin-top:10px;
 padding: 15px;
 background-color:white;
 opacity:.85;
@@ -236,8 +244,58 @@ background-color:white;
 opacity:.85;
 box-shadow:1.5px 2px 2px 2px black;
 padding:15px;
+margin-top: 10px;
 
 }
+
+.events li {
+    margin-top:20px;
+}
+
+.events-placeholder li {
+    font-size: 80px;
+}
+
+iframe, object, embed {
+        max-width: 100%;
+        min-width: 100%;
+        z-index:1;
+}
+
+.title{
+
+font-family:'Marcellus SC', serif;
+font-size: 2em;
+color:#954a13;
+text-align:center;
+}
+
+.links {
+
+font-family:'Josefin Slab', serif;
+font-size: 18px;
+color:#954a13;
+text-align:center;
+padding:15px;
+}
+
+#events {
+font-family:'Marcellus SC', sans-serif;
+font-size: 2em;
+color:#954a13;
+text-align:center;
+padding-bottom:.5em;
+}
+
+ul {
+
+font-family:'Josefin Slab', sans-serif;
+font-size:1.5em;
+
+}
+
+
+/*album page styles*/
 
 #albumpage {
 margin-top:60px;
@@ -273,28 +331,7 @@ text-align:center;
 }
 
 
-iframe, object, embed {
-        max-width: 100%;
-		min-width: 100%;
-		z-index:1;
-}
 
-.title{
-
-font-family:'Marcellus SC', serif;
-font-size: 2em;
-color:#954a13;
-text-align:center;
-}
-
-.links {
-
-font-family:'Josefin Slab', serif;
-font-size: 18px;
-color:#954a13;
-text-align:center;
-padding:15px;
-}
 
 a:hover {
 text-decoration:none;
@@ -306,21 +343,7 @@ color:#954a13;
 
 }
 
-#events {
-font-family:'Marcellus SC', sans-serif;
-font-size: 2em;
-color:#954a13;
-text-align:center;
-padding-bottom:.5em;
-}
-
-ul {
-
-font-family:'Josefin Slab', sans-serif;
-font-size:1.5em;
-
-}
-
+/*bio page styles*/
 
 #bioimg {
 
@@ -350,6 +373,8 @@ p {
     text-align:justify;
 }
 
+/*media page styles*/
+
 .media {
 
 margin-bottom:20px;
@@ -367,6 +392,26 @@ color:#954a13;
 text-align:center;
 
 }
+
+#fittext7 {
+text-align:center;
+font-family:'Marcellus SC', sans-serif;
+color:white;
+margin-top:20px;
+}
+
+
+/*calendar styles*/
+
+.events {
+background-color:white;
+opacity:.85;
+box-shadow:1.5px 2px 2px 2px black;
+
+
+}
+
+/*link page styles*/
 
 .linkimg {
 
@@ -433,12 +478,6 @@ color:white;
 margin-top:0;
 }
 
-#fittext7 {
-text-align:center;
-font-family:'Marcellus SC', sans-serif;
-color:white;
-margin-top:20px;
-}
 
 
 #teaching {
@@ -452,6 +491,8 @@ margin-top:40px;
 
 }
 
+/*my instrument styles*/
+
 .history {
 
 font-size:20px;
@@ -464,6 +505,8 @@ font-family: 'UnifrakturCook', cursive;
 font-size:40px;
 
 }
+
+/*footer styles*/
 
 #footer {
 padding-top:10px;
@@ -493,17 +536,7 @@ text-align:center;
 }
 
 
-.page-width {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-	
-}
 
-
-
-
-@media (min-width: @screen-md-min) { <1300px }
 
 
 

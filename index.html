@@ -14,32 +14,35 @@
 		<link href='http://fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css'>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">  
+    <script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+   		<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		        <script src="js/vendor/handlebars-v1.3.0.js"></script>
+		 <script src="js/vendor/handlebars-v1.3.0.js"></script>
+
+
     </head>
     <body>
 
         <div class ="contanier-fluid page-width">
 		
-				
+			
            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-           	
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a id="signature" href="index.html">Jeremy David Ward</a></li>
-                        <li><a href="bio.html">Bio</a></li>
-                        <li><a href="media.html">Media</a></li>
-                        <li><a href="calendar.html">Calendar</a></li>
-						<li><a href="studio.html">Studio</a></li>
-						<li><a href="my_instrument.html">My Instrument</a></li>
-						<li><a href="eleven.html">Eleven</a></li>
-						<li><a href="links.html">Links</a></li>
-						<li><a href="mailto:celloward@gmail.com">Contact</a></li>
-					</ul>	
-					
+           		<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="#bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a id="signature" href="index.html">Jeremy David Ward</a></li>
+	                        <li><a href="bio.html">Bio</a></li>
+	                        <li><a href="media.html">Media</a></li>
+	                        <li><a href="calendar.html">Calendar</a></li>
+							<li><a href="studio.html">Studio</a></li>
+							<li><a href="my_instrument.html">My Instrument</a></li>
+							<li><a href="links.html">Links</a></li>
+							<li><a href="mailto:celloward@gmail.com">Contact</a></li>
+						</ul>	
+	        		</div>
         		</div>
             </nav>
 	   
@@ -73,10 +76,10 @@
 				</div>
 
 			
-				<div class="col-lg-4 col-lg-offset-1">
+				<div class="col-lg-4 col-lg-offset-1" style="padding-right:10px;">
 					<div class="events">
-						<h2 id="events">Events</h2>
-							<div id="events-placeholder" style="max-height:765px">
+						<h2 id="events">Upcoming Events</h2>
+							<div id="events-placeholder">
 								<div class="spinner"></div>
 							 </div>
 						<div  class="links"><a  class="links" href="calendar.html">Full Calendar</a></div>
@@ -121,7 +124,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
  	<script src="js/jquery.fittext.js"></script>
 	<script type="text/javascript">
-		$("#fittext1").fitText(1, { minFontSize: '5px', maxFontSize: '60px' });
+		$("#fittext1").fitText(1.3, { minFontSize: '5px', maxFontSize: '60px' });
 		$("#fittext2").fitText(3.4, { minFontSize: '5px', maxFontSize: '30px' });
 		$("#fittext3").fitText(4.3, { minFontSize: '5px', maxFontSize: '20px' });
 		$("#fittext4").fitText(1, { minFontSize: '15px', maxFontSize: '35ßpx' });
