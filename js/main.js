@@ -1,5 +1,4 @@
 
-
 //fittext//
 
 (function( $ ){
@@ -40,11 +39,14 @@
   window.onload = function() { init() };
 
   var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0ArOMqtZIcWLedHZscTJQejR0QjI5WktYbWhfemhyOVE&output=html';
-
+  var date = new Date();
+  var todaysDate =  (date.getMonth() + 1) + "/" + date.getDate() + "/" +  date.getFullYear();
+  var dateQuery = "date >= " + todaysDate;
   function init() {
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: showInfo,
-                     simpleSheet: true } )
+                     simpleSheet: true,
+                     query: dateQuery } )
   }
 
   function showInfo(data, tabletop) {
