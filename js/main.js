@@ -87,3 +87,12 @@
     $("#events-placeholder .spinner").remove();
     
   }
+
+
+//navbar collapse media query js//
+$('#monitor').html($(window).width());
+
+$(window).resize(function() {
+    var viewportWidth = $(window).width();
+    $('#monitor').html(viewportWidth);
+});
