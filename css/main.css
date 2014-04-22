@@ -138,7 +138,7 @@ position:absolute;
 #signature {
 
 font-family: 'Great Vibes', cursive;
-font-size:40px;
+font-size:2.5em;
 color:#333;
 padding-right:50px;
 }
@@ -152,7 +152,7 @@ padding-right:50px;
 	Background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top-left;
-	padding-top:70px;
+
 }	
 
 
@@ -208,16 +208,7 @@ display:block;
 margin: 0 7.6em 1.8em 0;
 }
 
-#fittext3 {
 
-font-family:'Marcellus SC', sans-serif;
-position: relative;
-text-align:center;
-color:#954a13;
-display:block;
-margin:.25em 7.5em 0 0;
-padding-bottom:.25em;
-}
 
 .watch {
 
@@ -262,13 +253,29 @@ iframe, object, embed {
         z-index:1;
 }
 
-.title{
+#fittext7{
 
 font-family:'Marcellus SC', serif;
-font-size: 2em;
 color:#954a13;
 text-align:center;
 }
+
+#fittext8{
+
+font-family:'Marcellus SC', serif;
+color:#954a13;
+text-align:center;
+}
+
+
+#fittext9{
+
+font-family:'Marcellus SC', serif;
+color:#954a13;
+text-align:center;
+}
+
+
 
 .links {
 

@@ -34,7 +34,34 @@
 
 })( jQuery );
 
-//tabletop//
+
+
+//tabletop calendar page//
+
+
+  window.onload = function() { init() };
+
+  var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0ArOMqtZIcWLedHZscTJQejR0QjI5WktYbWhfemhyOVE&output=html';
+  function init() {
+    Tabletop.init( { key: public_spreadsheet_url,
+                     callback: showInfo,
+                     simpleSheet: true} )
+  }
+
+  function showInfo(data, tabletop) {
+
+    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em></li> {{/each}} </ul>";
+
+    var template = Handlebars.compile(source);
+    var result = template(data);
+
+    $("#events-placeholder2").html(result);
+    $("#events-placeholder2 .spinner").remove();
+    
+  }
+
+
+//tabletop homepage//
 
   window.onload = function() { init() };
 
@@ -60,10 +87,3 @@
     $("#events-placeholder .spinner").remove();
     
   }
-
-
-
-
-
-
-
