@@ -21,6 +21,7 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         
+       	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">  
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -36,16 +37,15 @@
            <nav class="navbar navbar-default navbar-static-top" role="navigation">
            		<div class="container-fluid">
            			<div class="navbar-header">
+           				<a class="navbar-brand" id="signature" href="index.html">JDW</a>
 	           			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-	           			  		<span class="sr-only">Toggle Navigation</span>
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 	      					</button>
-	      				<a class="navbar-brand" id="signature" href="index.html">JDW</a>
 	      			</div>
 
-						<div class="navbar-collapse collapse">
+						<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height:1px;">
 							<ul class="nav navbar-nav">
 		                        <li><a href="bio.html">Bio</a></li>
 		                        <li><a href="media.html">Media</a></li>
@@ -61,7 +61,7 @@
 	   
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1">
+					<div class="col-lg-10 col-lg-offset-1 col-xs-8 col-xs-offset-2">
 						<div class="welcome">
 							<h1 id="fittext1">Jeremy David Ward</h1> 
 							<div id="fittext2"> Violone & Violoncello</div>
@@ -80,7 +80,7 @@
 
 		<div class="container">	
 			<div class="row">
-				<div class="col-lg-10 col-lg-offset-1">
+				<div class="col-lg-10 col-lg-offset-1 col-xs-8 col-xs-offset-2">
 					<div class="watch">
 						<h2 id="fittext8">Watch</h2>
 								<iframe height="400" src="http://www.youtube.com/embed/tgww65eAYo4" frameborder="0"></iframe>
@@ -89,7 +89,7 @@
 				</div>
 
 			
-				<div class="col-lg-4 col-lg-offset-1" style="padding-right:10px;">
+				<div class="col-lg-4 col-lg-offset-1 col-xs-8 col-xs-offset-2">
 					<div class="events">
 						<h2 id="fittext9">Upcoming Events</h2>
 							<div id="events-placeholder">
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 				
-				<div class="col-lg-6" style="padding-left:0">
+				<div class="col-lg-6 col-lg-offset-0 col-xs-8 col-xs-offset-2">
 					<div class="album">
 						<h2 id="fittext10">Featured Album</h2>
 							<img src="img/rookeleven.png" style="min-width:100%;max-width:100%;"/>
@@ -133,7 +133,7 @@
         <script src="js/main.js"></script>
         <script src="js/vendor/tabletop.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">  
+        
     	
 <!--nav bar collapse js-->
 
@@ -149,10 +149,10 @@
 		$("#fittext1").fitText(1.7, { minFontSize: '5px', maxFontSize: '60px' });
 		$("#fittext2").fitText(3.4, { minFontSize: '5px', maxFontSize: '30px' });
 		$("#fittext3").fitText(2, { minFontSize: '30px', maxFontSize: '60px' });
-		$("#fittext7").fitText(2, { minFontSize: '5px', maxFontSize: '35px' });
-		$("#fittext8").fitText(2, { minFontSize: '5px', maxFontSize: '35px' });
-		$("#fittext9").fitText(2, { minFontSize: '5px', maxFontSize: '35px' });
-		$("#fittext10").fitText(2, { minFontSize: '5px', maxFontSize: '35px' });
+		$("#fittext7").fitText(2, { minFontSize: '10px', maxFontSize: '35px' });
+		$("#fittext8").fitText(2, { minFontSize: '10px', maxFontSize: '35px' });
+		$("#fittext9").fitText(1.5, { minFontSize: '10px', maxFontSize: '35px' });
+		$("#fittext10").fitText(2, { minFontSize: '10px', maxFontSize: '35px' });
 
 	</script>
 

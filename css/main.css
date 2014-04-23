@@ -84,6 +84,9 @@ fieldset {
 	
 }
 
+
+
+
 /* ==========================================================================
    Loader for Events
    ========================================================================== */
@@ -121,9 +124,7 @@ margin: 0 auto;
 	font-weight:400;
 	Font-size:18px;
 	z-index:100;
-	margin: 0 auto;
-    display: table;
-    float:none;
+
 	
 
 }
@@ -133,17 +134,9 @@ margin: 0 auto;
   float: none;
 }
 
-.navbar {
-  text-align: center;
-}
-
-.navbar-brand {
-    padding: 0;
-}
 
 .navbar-default {
 opacity:.85;
-position:absolute;
 
 }
 
@@ -163,7 +156,6 @@ margin-left:100px;
 	Background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top-left;
-
 }	
 
 
@@ -177,7 +169,7 @@ margin-left:100px;
 
 
 
-@media (min-width: @screen-md-min) { <1300px }
+
 
 /*home page styles*/
 
@@ -671,7 +663,14 @@ text-align:center;
    Modify as content requires.
    ========================================================================== */
 
-@media (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
+
+@media (max-width: 768px) {
     .navbar-header {
         float: none;
     }
@@ -708,10 +707,6 @@ text-align:center;
     }
 }
 
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
