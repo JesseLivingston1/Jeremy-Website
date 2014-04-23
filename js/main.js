@@ -34,11 +34,18 @@
 
 })( jQuery );
 
+//navbar collapse media query js//
+
+$('#monitor').html($(window).width());
+
+$(window).resize(function() {
+    var viewportWidth = $(window).width();
+    $('#monitor').html(viewportWidth);
+});
 
 
 
-
-//tabletop homepage//
+//tabletop stuff//
 
   window.onload = function() { init() };
 
@@ -69,11 +76,3 @@
 
 
 
-//navbar collapse media query js//
-
-$('#monitor').html($(window).width());
-
-$(window).resize(function() {
-    var viewportWidth = $(window).width();
-    $('#monitor').html(viewportWidth);
-});

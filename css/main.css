@@ -116,7 +116,9 @@ margin: 0 auto;
    Author's custom styles
    ========================================================================== */
 
-/*all page styles*/
+/*===================================
+        all page styles
+===================================*/
 
 
 .nav  {
@@ -132,6 +134,10 @@ margin: 0 auto;
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 
@@ -170,8 +176,9 @@ margin-left:100px;
 
 
 
-
-/*home page styles*/
+/*===================================
+        home page styles
+===================================*/
 
 
 .welcome {
@@ -224,7 +231,7 @@ box-shadow:1.5px 2px 2px 2px black;
 }
 
 .album {
-margin-top:10px;
+margin-top:30px;
 padding: 15px;
 background-color:white;
 opacity:.85;
@@ -238,7 +245,7 @@ background-color:white;
 opacity:.85;
 box-shadow:1.5px 2px 2px 2px black;
 padding:15px;
-margin-top: 10px;
+margin-top: 30px;
 
 }
 
@@ -256,27 +263,15 @@ iframe, object, embed {
         z-index:1;
 }
 
-#fittext8{
+.title{
 
 font-family:'Marcellus SC', serif;
 color:#954a13;
 text-align:center;
-}
-
-#fittext9{
-
-font-family:'Marcellus SC', serif;
-color:#954a13;
-text-align:center;
+font-size:2em;
 }
 
 
-#fittext10{
-
-font-family:'Marcellus SC', serif;
-color:#954a13;
-text-align:center;
-}
 
 
 
@@ -305,7 +300,9 @@ font-size:1.5em;
 }
 
 
-/*album page styles*/
+/*===================================
+        album page styles
+===================================*/
 
 #albumpage {
 margin-top:60px;
@@ -344,7 +341,7 @@ text-align:center;
 
 
 a:hover {
-text-decoration:none;
+text-decoration:underline;
 color:#954a13;
 }
 a {
@@ -353,7 +350,9 @@ color:#954a13;
 
 }
 
-/*bio page styles*/
+/*===================================
+        bio page styles
+===================================*/
 
 #bioimg {
 
@@ -384,7 +383,9 @@ p {
     text-align:justify;
 }
 
-/*media page styles*/
+/*===================================
+        media page styles
+===================================*/
 
 .media {
 
@@ -412,7 +413,9 @@ margin-top:20px;
 }
 
 
-/*calendar styles*/
+/*===================================
+        calendar page styles
+===================================*/
 
 .events {
 background-color:white;
@@ -422,7 +425,9 @@ box-shadow:1.5px 2px 2px 2px black;
 
 }
 
-/*link page styles*/
+/*===================================
+        link page styles
+===================================*/
 
 .linkimg {
 
@@ -501,8 +506,9 @@ margin-bottom:60px;
 margin-top:40px;
 
 }
-
-/*my instrument styles*/
+/*===================================
+        my instrument page styles
+===================================*/
 
 .history {
 
@@ -517,7 +523,9 @@ font-size:40px;
 
 }
 
-/*footer styles*/
+/*===================================
+       footer styles
+===================================*/
 
 #footer {
 padding-top:10px;
@@ -663,14 +671,8 @@ text-align:center;
    Modify as content requires.
    ========================================================================== */
 
-@media (min-width: 768px) and (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
-}
 
-
-@media (max-width: 768px) {
+@media (max-width: 930px) {
     .navbar-header {
         float: none;
     }
