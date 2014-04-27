@@ -134,10 +134,12 @@ margin: 0 auto;
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
+
 }
 
 .navbar .navbar-collapse {
   text-align: center;
+  max-width: 850px;
 }
 
 
@@ -150,9 +152,10 @@ opacity:.85;
 
 color:#333;
 font-family:'Alex Brush', sans-serif;
-font-size:3.5em;
-margin-left:100px;
+font-size:3em;
+
 }
+
 
 
    
@@ -184,8 +187,8 @@ margin-left:100px;
 .welcome {
 
 margin-top:40px;
-margin-bottom:80px;
-padding:15px;
+margin-bottom:30px;
+padding:1px;
 background:white;
 opacity:.85;
 box-shadow:1.5px 2px 2px 2px black;
@@ -222,8 +225,8 @@ margin: 0 7.6em 1.8em 0;
 
 .watch {
 
-margin-bottom:0;
-padding:15px;
+
+padding:1px 15px 0 15px;
 background-color:white;
 opacity:.85;
 box-shadow:1.5px 2px 2px 2px black;
@@ -231,7 +234,7 @@ box-shadow:1.5px 2px 2px 2px black;
 }
 
 .album {
-margin-top:30px;
+margin-top:10px;
 padding: 15px;
 background-color:white;
 opacity:.85;
@@ -245,30 +248,25 @@ background-color:white;
 opacity:.85;
 box-shadow:1.5px 2px 2px 2px black;
 padding:15px;
-margin-top: 30px;
+margin-top: 10px;
 
 }
 
 .events li {
-    margin-top:20px;
+    margin-top:10px;
 }
 
-.events-placeholder li {
-    font-size: 80px;
+#events-placeholder li {
+    font-size: 18px;
 }
 
-iframe, object, embed {
-        max-width: 100%;
-        min-width: 100%;
-        z-index:1;
-}
 
 .title{
 
 font-family:'Marcellus SC', serif;
 color:#954a13;
 text-align:center;
-font-size:2em;
+font-size:1.4em;
 }
 
 
@@ -278,7 +276,7 @@ font-size:2em;
 .links {
 
 font-family:'Josefin Slab', serif;
-font-size: 18px;
+font-size: 15px;
 color:#954a13;
 text-align:center;
 padding:15px;
@@ -299,6 +297,21 @@ font-size:1.5em;
 
 }
 
+@media (min-width: 1200px) {
+.col-lg-3 {
+width: 25%;
+padding-right:0;
+}
+
+}
+
+@media (min-width: 992px) {
+.col-md-3 {
+width: 25%;
+padding-right:0;
+}
+
+}
 
 /*===================================
         album page styles
@@ -358,7 +371,7 @@ color:#954a13;
 
 padding-top:40px;
 padding-left:10%;
-padding-bottom:30px;
+padding-bottom:15px;
 margin-right:auto;
 float:left;
 
@@ -369,16 +382,16 @@ float:left;
 
 font-family:'Marcellus SC', sans-serif;
 color:white;
-font-size:40px;
+font-size:30px;
 text-align:center;
-padding-bottom:30px;
-
+padding-bottom:10px;
+padding-top:30px;
 }
 
 p {
 
     font-family:'Josefin Slab';
-    font-size:18px;
+    font-size:17px;
     color:white;
     text-align:justify;
 }
@@ -412,19 +425,31 @@ color:white;
 margin-top:20px;
 }
 
+iframe, object, embed {
+        max-width: 100%;
+        min-width: 100%;
+
+}
+
 
 /*===================================
         calendar page styles
 ===================================*/
 
-.events {
-background-color:white;
-opacity:.85;
-box-shadow:1.5px 2px 2px 2px black;
-
+#fittext10 {
+text-align:center;
+font-family:'Marcellus SC', sans-serif;
+color:#954a13;
 
 }
 
+
+#fittext12 {
+text-align:center;
+font-family:'Marcellus SC', sans-serif;
+color:#954a13;
+
+}
 /*===================================
         link page styles
 ===================================*/
@@ -472,39 +497,40 @@ text-align:center;
 
 }
 
-#studio {
-
-font-family:'Josefin Slab', sans-serif;
-font-size: 20px;
-color:#954a13;
+#fittext11 {
+font-family:'Marcellus SC', sans-serif;
+color:white;
 text-align:center;
 
+}
+
+
+
+/*===================================
+        studio page styles
+===================================*/
+
+
+
+#teaching {
+    min-height:750px;
+    margin-top:50px;
 }
 
 #fittext5 {
 text-align:center;
 font-family:'Marcellus SC', sans-serif;
-color:#954a13;
-}
-
-#fittext6 {
-text-align:center;
-font-family:'Marcellus SC', sans-serif;
 color:white;
-margin-top:0;
 }
 
 
 
-#teaching {
-
-padding:15px;
-background-color:white;
-opacity:.85;
-box-shadow:1.5px 2px 2px 2px black;
-margin-bottom:60px;
-margin-top:40px;
-
+.studioinfo {
+text-align:center;
+font-family:'Josefin Slab', sans-serif;
+font-size:18px;
+color:white;
+text-align:justify;
 }
 /*===================================
         my instrument page styles
@@ -512,16 +538,19 @@ margin-top:40px;
 
 .history {
 
-font-size:20px;
+font-size:18px;
 
 }
 
-.history span {
-
-font-family: 'UnifrakturCook', cursive;
-font-size:40px;
+#cellotitle {
+    font-family:'Marcellus SC', sans-serif;
+    color:white;
+    text-align:center;
+    font-size:25px;
 
 }
+
+
 
 /*===================================
        footer styles
@@ -671,8 +700,7 @@ text-align:center;
    Modify as content requires.
    ========================================================================== */
 
-
-@media (max-width: 930px) {
+@media (max-width: 960px) {
     .navbar-header {
         float: none;
     }
@@ -708,6 +736,7 @@ text-align:center;
         display:block !important;
     }
 }
+
 
 
 @media print,
