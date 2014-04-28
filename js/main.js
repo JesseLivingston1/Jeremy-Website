@@ -61,18 +61,17 @@ $(window).resize(function() {
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: upcomingEvents,
                      simpleSheet: true,
-<<<<<<< HEAD
-                     query: dateQuery } )
-  };
-=======
-                     query: upcomingQuery } )
+                     query: upcomingQuery })
+
+
+
 
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: pastEvents,
                      simpleSheet: true,
-                     query: pastQuery } )
-  }
->>>>>>> b7a8afa7c4b8c43876a9c55367aadf5c609d4ef5
+                     query: pastQuery })
+  
+}
 
 // to do: require this and the upcomingEvents callback only on pages where this data is needed
 

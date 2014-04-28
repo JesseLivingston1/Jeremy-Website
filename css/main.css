@@ -80,8 +80,8 @@ fieldset {
 
 
 .container-fluid {
-    max-width: 1200px;
-	
+    max-width:1200px;
+
 }
 
 
@@ -256,7 +256,7 @@ margin-top: 10px;
     margin-top:10px;
 }
 
-#events-placeholder li {
+#upcoming-events-placeholder li {
     font-size: 18px;
 }
 
@@ -266,17 +266,13 @@ margin-top: 10px;
 font-family:'Marcellus SC', serif;
 color:#954a13;
 text-align:center;
-font-size:1.4em;
+font-size:20px;
 }
-
-
-
-
 
 .links {
 
 font-family:'Josefin Slab', serif;
-font-size: 15px;
+font-size: 17px;
 color:#954a13;
 text-align:center;
 padding:15px;
@@ -369,16 +365,24 @@ color:#954a13;
 
 #bioimg {
 
-padding-top:40px;
-padding-left:10%;
+padding-top:80px;
 padding-bottom:15px;
-margin-right:auto;
 float:left;
+max-width:100%;
+min-width:100%;
+
+}
+
+@media (min-width: 1200px) {
+.col-lg-3 #bioimg{
+    min-width:450px;
+
+}
 
 }
 
 
-#fittext4{
+#about{
 
 font-family:'Marcellus SC', sans-serif;
 color:white;
@@ -386,6 +390,7 @@ font-size:30px;
 text-align:center;
 padding-bottom:10px;
 padding-top:30px;
+
 }
 
 p {
@@ -395,6 +400,8 @@ p {
     color:white;
     text-align:justify;
 }
+
+
 
 /*===================================
         media page styles
@@ -422,7 +429,6 @@ text-align:center;
 text-align:center;
 font-family:'Marcellus SC', sans-serif;
 color:white;
-margin-top:20px;
 }
 
 iframe, object, embed {
@@ -450,6 +456,18 @@ font-family:'Marcellus SC', sans-serif;
 color:#954a13;
 
 }
+
+#fittext13{
+
+font-family:'Marcellus SC', sans-serif;
+color:white;
+text-align:center;
+}
+
+#past-events-placeholder li {
+    font-size:18px;
+}
+
 /*===================================
         link page styles
 ===================================*/
@@ -513,14 +531,14 @@ text-align:center;
 
 
 #teaching {
-    min-height:750px;
-    margin-top:50px;
+    min-height:625px;
+
 }
 
 #fittext5 {
 text-align:center;
 font-family:'Marcellus SC', sans-serif;
-color:white;
+color:#954a13;
 }
 
 
@@ -739,13 +757,14 @@ text-align:center;
 
 
 
-@media print,
+@media print, {
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
+}
 
 
 /* ==========================================================================
