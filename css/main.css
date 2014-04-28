@@ -160,7 +160,7 @@ font-size:3em;
 
    
  body{
-	background-image: url("img/JWBackground5.png");
+	background-image: url("img/JWBackground5.jpg");
 	background-attachment:fixed;
 	Background-repeat:no-repeat;
 	background-size:cover;
@@ -474,7 +474,7 @@ box-shadow:1.5px 2px 2px 2px black;
 margin-bottom:80px;
 max-width:100%;
 min-width:100%;
-opacity:.85;
+
 
 }
 

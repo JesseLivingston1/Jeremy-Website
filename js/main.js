@@ -58,7 +58,7 @@ $(window).resize(function() {
                      callback: showInfo,
                      simpleSheet: true,
                      query: dateQuery } )
-  }
+  };
 
   function showInfo(data, tabletop) {
 
@@ -70,7 +70,7 @@ $(window).resize(function() {
     $("#events-placeholder").html(result);
     $("#events-placeholder .spinner").remove();
     
-  }
+  };
 
 
 
