@@ -147,7 +147,7 @@ margin: 0 auto;
 
 .navbar-default {
 opacity:.85;
-margin-bottom: 5%;
+margin-bottom: 3%;
 
 }
 
@@ -383,11 +383,11 @@ color:#954a13;
         bio page styles
 ===================================*/
 
-#bioimg {
-padding-bottom:15px;
+.headshot {
+
 float:left;
 max-width:100%;
-
+min-width:100%;
 }
 
 
@@ -481,10 +481,9 @@ text-align:center;
 .linkimg {
 
 margin-bottom:20px;
-padding:15px;
 background-color:white;
 box-shadow:1.5px 2px 2px 2px black;
-margin-bottom:80px;
+margin-bottom:8%;
 max-width:100%;
 min-width:100%;
 
@@ -492,10 +491,9 @@ min-width:100%;
 
 #linkimgrook {
 margin-bottom:20px;
-padding:15px;
 background-color:white;
 box-shadow:1.5px 2px 2px 2px black;
-margin-bottom:80px;
+margin-bottom:8%;
 max-width:100%;
 min-width:100%;
 
@@ -535,10 +533,11 @@ text-align:center;
 ===================================*/
 
 
-
-#teaching {
-    min-height:625px;
-
+.headshotimg {
+padding:10px;
+background-color:white;
+opacity:.85;
+box-shadow:1.5px 2px 2px 2px black;
 }
 
 #fittext5 {
@@ -547,14 +546,18 @@ font-family:'Marcellus SC', sans-serif;
 color:white;
 }
 
-
+#teaching {
+    padding-bottom: 5%;
+}
 
 .studioinfo {
 text-align:center;
 font-family:'Josefin Slab', sans-serif;
 font-size:18px;
 color:white;
-text-align:justify;
+text-align:left;
+
+
 }
 /*===================================
         my instrument page styles
@@ -563,8 +566,17 @@ text-align:justify;
 .history {
 
 font-size:18px;
-color:white;
+color:black;
 font-family:'Josefin Slab', sans-serif;
+
+}
+
+.history1 {
+    padding:10px;
+background-color:white;
+opacity:.85;
+box-shadow:1.5px 2px 2px 2px black;
+
 
 }
 
