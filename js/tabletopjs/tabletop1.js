@@ -18,6 +18,10 @@
                      query: upcomingQuery })
 
 
+    Tabletop.init( { key: public_spreadsheet_url,
+                     callback: upcomingEventsFull,
+                     simpleSheet: true,
+                     query: upcomingQuery })
 
 
     Tabletop.init( { key: public_spreadsheet_url,
@@ -31,7 +35,7 @@
 
   function upcomingEvents(data, tabletop) {
 
-    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em></li> {{/each}} </ul>";
+    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em>" + " - " + "<a href= '{{link}}'>More Info</a></li> {{/each}} </ul>";
 
     var template = Handlebars.compile(source);
     var result = template(data);
@@ -40,6 +44,19 @@
     $("#upcoming-events-placeholder .spinner").remove();
     
   }
+
+  function upcomingEventsFull(data, tabletop) {
+
+    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em>" + " - " + "<a href= '{{link}}'>More Info</a></li> {{/each}} </ul>";
+
+    var template = Handlebars.compile(source);
+    var result = template(data);
+
+    $("#upcoming-events-full-placeholder").html(result);
+    $("#upcoming-events-full-placeholder .spinner").remove();
+    
+  }
+
 
 // to do: require this and the pastEvents callback only on pages where this data is needed
 
