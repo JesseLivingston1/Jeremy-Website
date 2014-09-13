@@ -14,18 +14,24 @@
 
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: upcomingEvents,
+                     orderby: 'date',
+                     reverse: false,
                      simpleSheet: true,
                      query: upcomingQuery })
 
 
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: upcomingEventsFull,
+                     orderby: 'date',
+                     reverse: false,
                      simpleSheet: true,
                      query: upcomingQuery })
 
 
     Tabletop.init( { key: public_spreadsheet_url,
                      callback: pastEvents,
+                     orderby: 'date',
+                     reverse: true,
                      simpleSheet: true,
                      query: pastQuery })
   
