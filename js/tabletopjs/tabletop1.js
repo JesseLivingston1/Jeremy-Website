@@ -16,7 +16,7 @@
                      callback: upcomingEvents,
                      orderby: 'date',
                      reverse: false,
-                     simpleSheet: true,
+                     simpleSheet: true, 
                      query: upcomingQuery })
 
 
@@ -41,19 +41,21 @@
 
   function upcomingEvents(data, tabletop) {
 
-    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em>" + " - " + "<a href= '{{link}}'>More Info</a></li> {{/each}} </ul>";
+    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em>" + " - " + "<a href= '{{link}}' target='_blank'>{{link}}</a></li> {{/each}} </ul>";
 
     var template = Handlebars.compile(source);
     var result = template(data);
 
     $("#upcoming-events-placeholder").html(result);
+    $('#upcoming-events-placeholder ul li').hide();
+    $('#upcoming-events-placeholder ul li:lt(4)').show();
     $("#upcoming-events-placeholder .spinner").remove();
     
   }
 
   function upcomingEventsFull(data, tabletop) {
 
-    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em>" + " - " + "<a href= '{{link}}'>More Info</a></li> {{/each}} </ul>";
+    var source = "<ul>{{#each this}} <li>{{date}}" + " - " + "<b>{{event}}</b>" + " - " + "<em>{{location}}</em>" + " - " + "<a href= '{{link}}' target='_blank'>{{link}}</a></li> {{/each}} </ul>";
 
     var template = Handlebars.compile(source);
     var result = template(data);

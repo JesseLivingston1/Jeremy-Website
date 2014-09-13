@@ -122,14 +122,10 @@ margin: 0 auto;
 
 
 .nav  {
-       font-family: 'Josefin Slab', serif;
+    font-family: 'Josefin Slab', serif;
 	font-weight:400;
-	Font-size:18px;
+	font-size:18px;
 	z-index:100;
-
-
-	
-
 }
 
 .navbar .navbar-nav {
@@ -261,6 +257,10 @@ margin-top: 10px;
 
 #upcoming-events-placeholder li {
     font-size: 18px;
+}
+
+#upcoming-events-placeholder a, #upcoming-events-placeholder-full a {
+    word-wrap: break-word;
 }
 
 
